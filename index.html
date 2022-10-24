@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Roslana Yotova</title>
+<style>
+    *{
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .overview{
+        padding: 2vw 4vw;
+        border-bottom: 1px solid #000;
+        overflow-x: hidden;
+    }
+    .overview.active{
+        background-color: #fff27f;
+    }
+    .year{
+        width: 10%;
+        display: inline-block;
+        font-size: 1vw;
+    }
+    .title{
+        width: 60%;
+        display: inline-block;
+        font-size: 1vw;
+    }
+    .media{
+        width: 30%;
+        display: inline-block;
+        font-size: 1vw;
+        text-align: right;
+    }
+
+    .details{
+        display: none;
+        border-bottom: 1px solid #000;
+        overflow-x: scroll;
+    }
+    .details.active{
+        display: flex;
+    }
+    .about{
+        font-size: 1vw;
+        padding: 2vw 4vw;
+    }
+    .description p{
+        width: 40vw;
+        font-size: 1vw;
+        padding: 2vw 4vw;
+    }
+    .details img{
+        max-width: 40vw;
+    }
+    
+</style>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<h1>Roslana Yotova</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius magni, ipsam quisquam quae velit alias exercitationem sequi dolores similique magnam.</p>
+
+
+<section>
+    <div class="project-wrapper">
+        <div class="overview">
+            <div class="year">Roslana Yotova</div>
+            <div class="title"></div>
+            <div class="media">about</div>
+        </div>
+        <div class="details active">
+            <p class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ducimus sapiente eius deleniti, cum quae delectus distinctio. Possimus dolore recusandae nisi, nobis quae animi aperiam quia porro amet sapiente quod reprehenderit modi reiciendis quaerat consequuntur voluptatem dolorem, voluptates autem mollitia officiis deserunt nesciunt. Vitae cupiditate reiciendis ad et ratione velit?</p>
+        </div>
+    </div>
+
+    <div class="project-wrapper">
+        <div class="overview">
+            <div class="year">2017</div>
+            <div class="title">Give it a title</div>
+            <div class="media">installation, video </div>
+        </div>
+        <div class="details">
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quos minus eos cum molestiae, debitis laboriosam temporibus maxime magnam nemo expedita odio quibusdam, dolore amet iste pariatur eum nesciunt blanditiis est nihil! Repudiandae, deserunt veniam debitis odio ipsa rem, ullam consequatur nisi earum quidem sed, voluptate tempore voluptatum aspernatur accusamus!</p>
+            </div>
+            <img src="give-it-a-title/01.jpg" alt="">
+            <img src="give-it-a-title/02.jpg" alt="">
+            <img src="give-it-a-title/03.jpg" alt="">
+            <img src="give-it-a-title/04.jpg" alt="">
+            <img src="give-it-a-title/05.jpg" alt="">
+            <img src="give-it-a-title/06.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="project-wrapper">
+        <div class="overview">
+            <div class="year">2018</div>
+            <div class="title">I can't play the piano</div>
+            <div class="media">film, documentary</div>
+        </div>
+       <div class="details">
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quos minus eos cum molestiae, debitis laboriosam temporibus maxime magnam nemo expedita odio quibusdam, dolore amet iste pariatur eum nesciunt blanditiis est nihil! Repudiandae, deserunt veniam debitis odio ipsa rem, ullam consequatur nisi earum quidem sed, voluptate tempore voluptatum aspernatur accusamus!</p>
+            </div>
+            <img src="other-voices/01.png" alt="">
+            <img src="other-voices/02.png" alt="">
+            <img src="other-voices/03.png" alt="">
+            <img src="other-voices/04.png" alt="">
+            <img src="other-voices/05.png" alt="">
+            <img src="other-voices/06.png" alt="">
+            <img src="other-voices/07.png" alt="">
+            <img src="other-voices/08.png" alt="">
+            
+        </div>
+    </div>
+
+    <div class="project-wrapper">
+        <div class="overview">
+            <div class="year">2021</div>
+            <div class="title">Archive Fever</div>
+            <div class="media">print</div>
+        </div>
+        <div class="details">
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quos minus eos cum molestiae, debitis laboriosam temporibus maxime magnam nemo expedita odio quibusdam, dolore amet iste pariatur eum nesciunt blanditiis est nihil! Repudiandae, deserunt veniam debitis odio ipsa rem, ullam consequatur nisi earum quidem sed, voluptate tempore voluptatum aspernatur accusamus!</p>
+            </div>
+            <img src="archive-fever/01.jpg" alt="">
+            <img src="archive-fever/02.jpg" alt="">
+            <img src="archive-fever/03.jpg" alt="">
+            <img src="archive-fever/04.jpg" alt="">
+            <img src="archive-fever/05.jpg" alt="">
+            <img src="archive-fever/06.jpg" alt="">
+            <img src="archive-fever/07.jpg" alt="">
+            <img src="archive-fever/08.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="project-wrapper">
+        <div class="overview">
+            <div class="year">2021</div>
+            <div class="title">Ground Truth</div>
+            <div class="media">interactive installation, creative coding</div>
+        </div>
+        <div class="details">
+            <img src="ground-thruth/01.jpg" alt="">
+            <img src="ground-thruth/02.jpg" alt="">
+            <img src="ground-thruth/03.jpg" alt="">
+            <img src="ground-thruth/04.jpg" alt="">
+            <img src="ground-thruth/05.jpg" alt="">
+            <img src="ground-thruth/06.jpg" alt="">
+            <img src="ground-thruth/07.jpg" alt="">
+            <img src="ground-thruth/08.jpg" alt="">
+            <img src="ground-thruth/09.jpg" alt="">
+            <img src="ground-thruth/10.jpg" alt="">
+            <img src="ground-thruth/11.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="project-wrapper">
+        <div class="overview">
+            <div class="year">2021</div>
+            <div class="title">title of project</div>
+            <div class="media">media, media, media</div>
+        </div>
+        <div class="details">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+<script>
+    $( document ).ready(function() {
+        $(".overview").click(function(){
+            $(".details").removeClass("active");
+            $(this).siblings().toggleClass("active");
+            $(".overview").removeClass("active");
+            $(this).toggleClass("active");
+        });
+    });
+</script>
+</body>
+</html>
