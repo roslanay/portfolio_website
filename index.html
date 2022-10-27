@@ -12,16 +12,19 @@
     }
     .overview{
         padding: 2vw 4vw;
-        border-bottom: 1px solid #000;
+        /* border-bottom: 1px solid #000; */
         overflow-x: hidden;
+        cursor: pointer;
     }
-    .overview.active{
-        background-color: #fff27f;
+    .overview.active * {
+        /* background-color: #fff27f; */
+        color: blue;
     }
     .year{
         width: 10%;
         display: inline-block;
         font-size: 1vw;
+        text-align: right;
     }
     .title{
         width: 60%;
@@ -32,7 +35,6 @@
         width: 30%;
         display: inline-block;
         font-size: 1vw;
-        text-align: right;
     }
 
     .details{
@@ -68,9 +70,9 @@
 <section>
     <div class="project-wrapper">
         <div class="overview">
-            <div class="year">Roslana Yotova</div>
-            <div class="title"></div>
-            <div class="media">about</div>
+            <div class="title">Roslana Yotova</div>
+            <div class="media"></div>
+            <div class="year">about</div>
         </div>
         <div class="details active">
             <p class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ducimus sapiente eius deleniti, cum quae delectus distinctio. Possimus dolore recusandae nisi, nobis quae animi aperiam quia porro amet sapiente quod reprehenderit modi reiciendis quaerat consequuntur voluptatem dolorem, voluptates autem mollitia officiis deserunt nesciunt. Vitae cupiditate reiciendis ad et ratione velit?</p>
@@ -79,9 +81,9 @@
 
     <div class="project-wrapper">
         <div class="overview">
-            <div class="year">2017</div>
             <div class="title">Give it a title</div>
             <div class="media">installation, video </div>
+            <div class="year">2017</div>
         </div>
         <div class="details">
             <div class="description">
@@ -98,9 +100,9 @@
 
     <div class="project-wrapper">
         <div class="overview">
-            <div class="year">2018</div>
             <div class="title">I can't play the piano</div>
             <div class="media">film, documentary</div>
+            <div class="year">2018</div>
         </div>
        <div class="details">
             <div class="description">
@@ -120,9 +122,9 @@
 
     <div class="project-wrapper">
         <div class="overview">
-            <div class="year">2021</div>
             <div class="title">Archive Fever</div>
             <div class="media">print</div>
+            <div class="year">2021</div>
         </div>
         <div class="details">
             <div class="description">
@@ -141,9 +143,9 @@
 
     <div class="project-wrapper">
         <div class="overview">
-            <div class="year">2021</div>
             <div class="title">Ground Truth</div>
             <div class="media">interactive installation, creative coding</div>
+            <div class="year">2021</div>
         </div>
         <div class="details">
             <img src="ground-thruth/01.jpg" alt="">
@@ -162,9 +164,9 @@
 
     <div class="project-wrapper">
         <div class="overview">
-            <div class="year">2021</div>
             <div class="title">title of project</div>
             <div class="media">media, media, media</div>
+            <div class="year">2021</div>
         </div>
         <div class="details">
             <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
